@@ -1,0 +1,12 @@
+Una API (aplication programming interface) es el conjuto de definiciones y protocolos y acuerdos sobre cómo se va a utilizar un programa (desde el código)
+
+LA INTERACCION, EL CÓMO, QUÈ HABRÀ ENTRE EL FRONT Y EL BACK END (HTTP?, LLAMADAS DE MÈTODOS?, COLA DE MENSAJES?, GUARDA EN UNA DB?)
+La mayoria de las aplicaciones que tienen un tipo de interaccion en tiempo real con personas o programas, tienen una API 
+
+/router/usuarios.js
+es la carpeta donde se encuentran todas las rutas definias. Es donde vamos a guardar las capas de ruteo. Familia de componentes q se encargan de tener los controladores que manejan las distintas peticiones que llegan al programa. Estas peticiones se manejan diciendole a donde tiene que ir con cada peticion. Es decir que delegan la tarea. 
+
+En el medio, podemos poner un middleware, que es un componente que precede a la ejecucion de la logica que corre el endpoint. Podemos poner tantos middlewares como querramos.
+
+
+Los grupos de controladores delegan las tareas a los petodos de apiUsuarios (el conjuto de metodos con su contrato, lo que espera recibir y devolver dentro de nuestro prgrama, la logica de negocio---->qué es lo que estamos haciendo con los datos)
